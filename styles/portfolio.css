@@ -1,26 +1,35 @@
-/*font-family: 'Montserrat', sans-serif;
-font-family: 'Roboto', sans-serif; */
-
 :root {
   --primary-color: #202020;
+  --secondary-color: #1b1b1b;
   --branding-color: #ffffff;
   --main-font-family: "Roboto" sans-serif;
   --secondary-font-family: "Montserrat", sans-serif;
 }
 
-h1,
 h2 {
-  color: var(--branding-color);
-  font-family: var(--main-font-family);
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
+  font-size: 45px;
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
 }
 
 .hero {
   background: var(--primary-color);
   text-align: center;
   padding: 160px 84px;
+}
+
+.hero h1,
+h2 {
+  color: var(--branding-color);
+  font-family: var(--main-font-family);
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
 
 .hero h1 {
@@ -53,8 +62,50 @@ h2 {
   text-transform: uppercase;
 }
 
+.content {
+  background: var(--secondary-color);
+  color: var(--branding-color);
+  text-align: center;
+}
+
+.btn-branding-outline {
+  border: 1px solid var(--branding-color);
+  border-radius: 50px;
+  color: var(--branding-color);
+  font-family: var(--secondary-font-family);
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 17px;
+  padding: 18px 30px;
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+
+.project-description {
+  padding: 120px 60px;
+}
+
 @media (max-width: 576px) {
+  h2 {
+    font-size: 28px;
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .hero,
+  .content {
+    text-align: center;
+  }
+
   .hero h1 {
     font-size: 30px;
+  }
+
+  .hero h2 {
+    font-size: 20px;
+  }
+
+  .project-description {
+    padding: 10px 60px;
   }
 }
