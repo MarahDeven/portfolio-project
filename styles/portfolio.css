@@ -6,6 +6,10 @@
   --secondary-font-family: "Montserrat", sans-serif;
 }
 
+body {
+  background: #1b1b1b;
+}
+
 h2 {
   font-size: 45px;
   text-align: center;
@@ -49,6 +53,38 @@ h2 {
   line-height: 30px;
 }
 
+.about-section {
+  font-family: var(--main-font-family);
+  background: var(--secondary-color);
+  color: #ffffff;
+  padding: 160px 84px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.about-section h3 {
+  color: #e84e7b;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  line-height: 80px;
+  text-transform: uppercase;
+}
+
+.about-section p {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.facebook-icon,
+.instagram-icon,
+.linkedin-icon {
+  padding: 10px;
+}
+
 .btn-branding {
   background: var(--branding-color);
   border-radius: 50px;
@@ -90,6 +126,10 @@ h2 {
     font-size: 28px;
     margin-top: 40px;
     text-align: center;
+  }
+
+  .about-section {
+    padding-top: 30px;
   }
 
   .hero,
