@@ -53,38 +53,6 @@ h2 {
   line-height: 30px;
 }
 
-.content-container {
-  font-family: var(--main-font-family);
-  background: var(--secondary-color);
-  color: #ffffff;
-  padding: 160px 84px;
-}
-
-.content-container h1 {
-  font-size: 64px;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-}
-
-.content-container h3 {
-  color: #e84e7b;
-  font-size: 18px;
-  letter-spacing: 0.1em;
-  line-height: 80px;
-  text-transform: uppercase;
-}
-
-.content-container p {
-  font-size: 18px;
-  font-weight: normal;
-}
-
-.facebook-icon,
-.instagram-icon,
-.linkedin-icon {
-  padding: 0px;
-}
-
 .btn-branding {
   background: var(--branding-color);
   border-radius: 50px;
@@ -119,6 +87,42 @@ h2 {
 
 .project-description {
   padding: 120px 60px;
+}
+
+.content-container {
+  font-family: var(--main-font-family);
+  background: var(--secondary-color);
+  color: #ffffff;
+  padding: 160px 84px;
+}
+
+.content-container h1 {
+  font-size: 64px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.content-container h3 {
+  color: #e84e7b;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  line-height: 80px;
+  text-transform: uppercase;
+}
+
+.content-container p {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.facebook-icon,
+.instagram-icon,
+.linkedin-icon {
+  padding: 0px;
+}
+
+.content p {
+  font-size: 15px;
 }
 
 @media (max-width: 576px) {
