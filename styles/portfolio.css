@@ -130,6 +130,37 @@ h2 {
   margin: 0;
 }
 
+.logo {
+  max-height: 22px;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  color: var(--branding-color);
+  line-height: 42px;
+  list-style: none;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--branding-color);
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: #e84e7b;
+}
+
 @media (max-width: 576px) {
   h2 {
     font-size: 28px;
