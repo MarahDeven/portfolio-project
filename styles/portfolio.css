@@ -125,6 +125,11 @@ h2 {
   font-size: 15px;
 }
 
+.contact-title h3 {
+  font-size: 14px;
+  margin: 0;
+}
+
 @media (max-width: 576px) {
   h2 {
     font-size: 28px;
