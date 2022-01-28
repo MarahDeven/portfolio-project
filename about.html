@@ -26,9 +26,38 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="styles/portfolio.css" />
-    <title>Marah Rice - Front-End Developer Profile</title>
+    <meta
+      name="description"
+      content="Marah Rice is a front-end developer based in the US.  Learn more about her here."
+    />
+    <title>Learn more about front-end developer, Marah - Marah Rice</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="SheCodes logo"
+          />
+        </a>
+        <ul>
+          <li title="Homepage">
+            <a href="/">Home</a>
+          </li>
+          <li class="active">
+            <a href="/about.html" title="About Marah">About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Marah's Work">Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Marah">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="row">
         <div class="col-lg-6">
@@ -44,22 +73,68 @@
             Sagittis.
           </p>
           <div class="social-links text-center mt-5">
-            <a href="https://www.github.com/MarahDeven" target="_blank"
+            <a
+              href="https://www.github.com/MarahDeven"
+              title="GitHub Profile"
+              target="_blank"
               ><i class="fab fa-github"></i
             ></a>
-            <a href="https://www.twitter.com/MarahDeven" target="_blank"
+            <a
+              href="https://www.twitter.com/MarahDeven"
+              title="Twitter Profile"
+              target="_blank"
               ><i class="fab fa-twitter"></i
             ></a>
             <a
               href="https://www.linkedin.com/in/marah-deven-rice/"
+              title="LinkedIn Profile"
               target="_blank"
               ><i class="fab fa-linkedin"></i
             ></a>
           </div>
           <br />
-          <a href="#" class="btn btn-branding">Contact Me</a>
+          <a href="/contact.html" class="btn btn-branding">Contact Me</a>
         </div>
       </div>
     </div>
+    <footer>
+      <img
+        src="images/logo.png"
+        class="logo-two d-flex d-none d-md-block"
+        alt="SheCodes logo"
+      />
+      <div class="social-links mb-5 text-center">
+        <a
+          href="https://www.github.com/MarahDeven"
+          target="_blank"
+          title="GitHub Profile"
+        >
+          <i class="fab fa-github-square github-icon"></i
+        ></a>
+        <a
+          href="https://www.twitter.com/MarahDeven"
+          target="_blank"
+          title="Twitter Profile"
+        >
+          <i class="fab fa-twitter-square"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/marah-deven-rice/"
+          target="_blank"
+          title="LinkedIn Profile"
+        >
+          <i class="fab fa-linkedin linkedin-icon"></i
+        ></a>
+      </div>
+      <p class="text-center text-light">
+        ✌🏽This project was
+        <a
+          href="https://www.github.com/MarahDeven/portfolio-project"
+          target="_blank"
+          >open-source</a
+        >
+        coded by Marah Rice
+      </p>
+    </footer>
   </body>
 </html>
